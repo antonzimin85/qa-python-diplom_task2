@@ -9,9 +9,9 @@ from data.order_data import OrderData
 def user_data():
     faker = Faker()
     user_data = {
-        "email": f'"{faker.safe_email()}"',
-        "password": f'"{faker.password(length=7, special_chars=False, upper_case=False, digits=False)}"',
-        "name": f'"{faker.name()}"'
+        "email": f'{faker.email()}tstzim',
+        "password": f'{faker.password(length=7, special_chars=False, upper_case=False, digits=False)}',
+        "name": f'{faker.name()}'
     }
     return user_data
 
@@ -19,8 +19,8 @@ def user_data():
 def new_user_data_for_update():
     faker = Faker()
     new_user_data = {
-        "email": f'"{faker.safe_email()}"',
-        "name": f'"{faker.name()}"'
+        "email": f'{faker.email()}tstzim',
+        "name": f'{faker.name()}'
     }
     return new_user_data
 
