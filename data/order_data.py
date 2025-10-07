@@ -1,0 +1,5 @@
+class  OrderData:
+
+    VALID_INGREDIENTS = {"ingredients": ["61c0c5a71d1f82001bdaaa7a", "61c0c5a71d1f82001bdaaa75", "61c0c5a71d1f82001bdaaa6e"]}
+    NO_INGREDIENTS = {"ingredients": []}
+    INVALID_HASH_INGREDIENTS = {"ingredients": ["12", "15"]}
